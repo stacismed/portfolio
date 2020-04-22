@@ -1,0 +1,145 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #095256;
+	}
+
+#work {
+	height:1450px;
+	}
+
+#about {
+	height:646px;
+	}
+
+#contact {
+	height:448px;
+	}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+	}
+
+/***** HEADER *****/
+header {
+	margin-top: -40px;
+    height: 802px;
+    background: url("../img/hero-image.png");
+    background-size: cover;
+}
+
+header h1 { 
+    padding: 320px 350px 20px 350px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: #bdbf09;
+    text-align: center;
+}
+
+header h2 {
+	text-align: center;
+	padding:0 304px 268px 304px;
+	clear: left;
+	font-size:43px;
+}
+
+/***** WORK *****/
+#work {
+	background: white;
+}
+
+#work h2 {
+	text-align: center;
+	font-size: 36px;
+}
+
+#work img {
+	padding:45px 53px 0 0;
+}
+
+#work h3 {
+	padding-top: 15px;
+	width: 500px;
+	font-size: 24px;
+}
+
+#work p {
+	padding: 0 0 290px 0;
+	font-size: 24px;
+}
+
+/***** ABOUT *****/
+#about {
+	background:#087e8b;
+}
+
+#about h2 {
+	font-size: 36px;
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+}
+
+#about img {
+	padding:45px 53px 0 0;
+}
+
+#about p {
+	padding-top: 20px;
+	font-size: 24px;
+	color: white;
+}
+
+/***** CONTACT *****/
+#contact  {
+	margin-top: -30px;
+	background: #095156;
+	color: white;
+}
+
+#contact h2 {
+	text-align: center;
+	padding-top: 40px;
+	font-size: 36px;
+}
+
+#contact h3 {
+	text-align: center;
+	font-size: 24px;
+}
+
+#contact a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	padding-left: 40px;
+
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+ }
+
+ #contact ul img {
+ 	padding-left:70px;
+}
+
+#contact p {
+	font-size: 24px;
+	text-align: center;
+}
